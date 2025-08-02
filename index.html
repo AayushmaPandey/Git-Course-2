@@ -2,59 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Aayushma</title>
     <style>
         body {
-            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            color: #333;
-            text-align: center;
+            background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+            font-family: Arial, sans-serif;
+            color: #222;
             margin: 0;
             padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: #fff;
+            padding: 32px 28px;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(100, 180, 255, 0.15);
+            max-width: 350px;
+            text-align: center;
         }
         h1 {
-            font-size: 3em;
-            color: #fff;
-            text-shadow: 2px 2px 8px #ff6f91;
-            margin-top: 40px;
+            color: #a259c6;
+            margin-bottom: 12px;
         }
-        .ball {
-            width: 100px;
-            height: 100px;
-            background: radial-gradient(circle at 30% 30%, #fff 40%, #ff6f91 100%);
-            border-radius: 50%;
-            margin: 40px auto;
-            box-shadow: 0 8px 24px rgba(255,111,145,0.4);
-            animation: bounce 1.2s infinite alternate;
+        .traits {
+            margin: 18px 0;
+            font-size: 1.15em;
         }
-        @keyframes bounce {
-            0% { transform: translateY(0); }
-            100% { transform: translateY(-60px); }
+        .emoji {
+            font-size: 1.5em;
+            margin: 0 4px;
         }
-        .fun-btn {
-            background: #ff6f91;
-            color: #fff;
-            border: none;
-            padding: 15px 30px;
-            border-radius: 30px;
-            font-size: 1.2em;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(255,111,145,0.2);
-            transition: background 0.3s;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 18px 0;
         }
-        .fun-btn:hover {
-            background: #ff9a9e;
+        ul li {
+            margin: 8px 0;
+            font-size: 1.08em;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Babaal Page!</h1>
-    <div class="ball"></div>
-    <p>This is a simple HTML document with a bouncing ball and playful style.</p>
-    <button class="fun-btn" onclick="alert('the ball is bouncing 🎉')">Click Me!</button>
-    <script>
-        console.log("Hello, World!");
-    </script>
+    <div class="card">
+        <h1>Aayushma</h1>
+        <div class="traits">
+            <span class="emoji">😄</span>
+            Funny, lovely, smart, beautiful, tall, good at studies, and a really extroverted person.
+            <span class="emoji">🌟</span>
+        </div>
+        <ul>
+            <li>Creative thinker</li>
+            <li>Helpful and caring</li>
+            <li>Great sense of humor</li>
+            <li>Always positive</li>
+            <li>Quick learner</li>
+            <li>Team player</li>
+            <li>Adventurous spirit</li>
+        </ul>
+        <p>I love meeting new people, making everyone laugh, and always strive to do my best in everything!</p>
+    </div>
 </body>
 </html>
